@@ -1,0 +1,62 @@
+{% load static %}
+
+<html>
+<head>
+	<title>Home | Kevin Asyraf</title>
+	<link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/bootstrap.css" %}">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body style="background-color: #f5f6fa">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+	  <a class="navbar-brand" href="#"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	    	<li class="nav-item">
+	    		<a class="nav-link" href="/" title="" style="margin-right: 25px; font-size: 20px">Home</a>
+	    	</li>	
+	    	<li class="nav-item">
+	    		<a class="nav-link" href="/about/" style="margin-right: 25px; font-size: 20px">About</a>
+	    	</li>   
+	    </ul>      
+	  </div>
+	</nav>
+	<div class="container">
+		<p></p>
+		<img src="{% static foto %}" style="width: 250px; border-radius: 100%; display: block; margin-left: auto; margin-right: auto; margin-top: 75px">
+		<p></p>
+		<h1 style="text-align: center; font-size: 65px">Kevin Asyraf</h1>
+
+		<h3 style="text-align: center; margin: 20px; color: #aaa">code is love. code is life</h3>
+		
+		<div style="text-align: center; padding-right: 30px; padding-left: 30px;">
+			<a href="mailto:kevinasyrafputra@gmail.com" style="color: #333333;">
+				<i class="fas fa-envelope fa-3x" style="padding: 25px"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/kevinasyraf/" target="_blank" style="color: #333333;">
+				<i class="fab fa-linkedin fa-3x" style="padding: 25px"></i>
+			</a>		
+			<a href="https://www.facebook.com/kevin.asyraf" target="_blank" style="color: #333333;">
+				<i class="fab fa-facebook fa-3x" style="padding: 25px"></i>
+			</a>
+			<a href="https://www.instagram.com/kevinasyraf/" target="_blank" style="color: #333333;">
+				<i class="fab fa-instagram fa-3x" style="padding: 25px"></i>
+			</a>			
+			<a href="https://github.com/kevinasyraf" target="_blank" style="color: #333333;">
+				<i class="fab fa-github fa-3x" style="padding: 25px"></i>
+			</a>
+			
+		</div>
+	</div>
+	<footer style="text-align: center; color: #aaa; border-top: 1px; border-radius: 3px; margin: 40px; font-size: 18px">
+		Kevin Asyraf © 2019
+	</footer>
+	
+	<script src="{% static "vendor/jquery/jquery.js" %}"type="text/javascript"></script>
+	<script src="{% static "vendor/popper/popper.js" %}"type="text/javascript"></script>
+	<script src="{% static "vendor/bootstrap/bootstrap.js" %}"type="text/javascript"></script>
+</body>
+</html>
