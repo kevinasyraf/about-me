@@ -1,0 +1,116 @@
+{% load static %}
+
+<html>
+<head>
+	<title>About | Kevin Asyraf</title>
+	<link rel="stylesheet" type="text/css" href="{% static "vendor/bootstrap/bootstrap.css" %}">
+</head>
+<body style="background-color: #f5f6fa">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+	  <a class="navbar-brand" href="#"></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	    	<li class="nav-item">
+	    		<a class="nav-link" href="/" title="" style="margin-right: 25px; font-size: 18px; font-weight: bold">Home</a>
+	    	</li>	
+	    	<li class="nav-item">
+	    		<a class="nav-link" href="/about/" style="margin-right: 25px; font-size: 18px; font-weight: bold">About</a>
+	    	</li>   
+	    </ul>      
+	  </div>
+	</nav>
+		<div class="jumbotron jumbotron-fluid">
+		  <div class="container">
+			<img src="{% static foto %}" style="width: 300px; border-radius: 100%; display: block; margin-left: auto; margin-right: auto; margin-bottom: 60px">
+			<h5 style="color: #333333">
+				Kevin is an undergraduate student at the Faculty of Computer Science University of Indonesia, majoring in Information Systems. Kevin have interest in web development, data science, and machine learning. Kevin is a hard-working, dedicated, and open-minded person. Kevin also able to work well in a team. He likes to learn many new things.
+			</h5>		  		
+		  </div>
+		</div>
+	<div class="container">
+		<h3 style="margin-bottom: 20px">Education</h3>
+		<ul>
+			<li>
+				<h6>Universitas Indonesia</h6>
+				<h6><i>July 2018 - June 2022</i> </h6> 
+				<p>Bachelor of Computer Science</p>
+			</li>
+			<li>
+				<h6>SMAN 1 Bogor</h6>
+				<h6><i>July 2015 - April 2018</i></h6>
+				<p>Natural Science</p>
+			</li>
+		</ul>
+
+		<h3 style="margin-top: 30px; margin-bottom: 20px">Experience</h3>
+		<ul>
+			<li>
+				<h6>Member of Information Management at SISTEM Fasilkom UI</h6>
+				<h6><i>March 2019 - Present</i></h6>
+				<p>SISTEM is Fasilkom UI's official organization aims to develop information systems core competences. 
+				<br>
+				Person In Charge of SISTEM Upgrade 2019 (Company Visit).
+				</p>
+			</li>
+			<li>
+				<h6>Staff of Data Science Academy at COMPFEST</h6>
+				<h6><i>February 2019 - Present</i></h6>
+				<p>COMPFEST is the biggest and leading one stop IT event held by students. </p>
+			</li>
+			<li>
+				<h6>Voting Staff at Pemira Fasilkom UI 2018</h6>
+				<h6><i>September 2018 - December 2018</i></h6>
+				<p>Pemira (Pemilihan Raya) is an annual event organized to vote for the President of BEM Fasilkom UI and Independent Member of DPM Fasilkom UI.	
+				<br> 
+				Handled the voting process using an e-vote system to simplify it.
+				</p>
+			</li>
+		</ul>
+
+		<h3 style="margin-top: 30px; margin-bottom: 20px">Achievements</h3>
+		<ul>
+			<li>
+				<h6>Participant of Informatics National Science Olympiad in Province Stage</h6>
+				<h6><i>March 2016</i></h6>
+				<p>Participated in Informatics Olympiad held by Ministry of Education and Culture Republic of Indonesia for West Java Province.</p>
+			</li>
+			<li>
+				<h6>Quarter Finalist of Electra 7</h6>
+				<h6><i>February 2017</i></h6>
+				<p>Reached the quarter final of physics, math, and computer championship held by Institut Teknologi Sepuluh Nopember. </p>
+			</li>
+		</ul>
+
+		<h3 style="margin-top: 30px; margin-bottom: 20px">Skills</h3>
+		<ul>
+			<li><h6>Python</h6></li>
+			<li><h6>Django Framework</h6></li>
+			<li><h6>Java</h6></li>
+			<li><h6>Ruby</h6></li>
+			<li><h6>Ruby on Rails Framework</h6></li>
+			<li><h6>HTML</h6></li>
+			<li><h6>CSS</h6></li>
+		</ul>
+
+		<h3 style="margin-top: 30px; margin-bottom: 20px">Projects</h3>
+		<ul>
+			<li>
+				<a href="https://github.com/kevinasyraf/vingo-project" target="_blank" style="color: #333333"><h6>Vingo Project</h6></a>
+				<h6><i>December 2018</i></h6>
+				<p>Django project with a custom user model for authentication.</p>
+			</li>
+		</ul>
+	</div>
+	<footer style="text-align: center; color: #aaa; padding: 40px; margin: 50px 0 0; font-size: 18px">
+		Kevin Asyraf © 2019
+	</footer>	
+
+	<script src="{% static "vendor/jquery/jquery.js" %}"type="text/javascript"></script>
+	<script src="{% static "vendor/popper/popper.js" %}"type="text/javascript"></script>
+	<script src="{% static "vendor/bootstrap/bootstrap.js" %}"type="text/javascript"></script>
+</body>
+</html>
